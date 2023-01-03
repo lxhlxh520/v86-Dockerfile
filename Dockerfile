@@ -17,4 +17,4 @@ COPY --from=v86-builder v86 .
 ARG PORT=8000
 CMD python3 -m http.server ${PORT}
 
-EXPOSE ${PORT
+EXPOSE ${PORT}
